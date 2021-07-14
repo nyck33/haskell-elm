@@ -1,3 +1,4 @@
+--hard book but good?
 module Unit1Ch2 where
 
 inc :: Int -> Int 
@@ -31,7 +32,7 @@ easyEven n =
         then n - 2
     else
         3 * n + 1
-        
+
 
 main :: IO()
 main = do
