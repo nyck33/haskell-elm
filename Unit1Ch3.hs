@@ -59,7 +59,7 @@ overwrite x =
             in 
                 x
 
---right to left so res is 4
+--right to left so res is 4, ie. outside to inside
 overwrite2 x = 
     (\x ->(\x ->(\x -> x) 4) 3) 2
 
